@@ -4,8 +4,8 @@
     "description": "Selenium WebDriver tests using Mocha with Mochawesome reports",
     "scripts": {
         "test-coba": "mocha tests/sesi-9/Tugas-sesi-9.js --recursive --timeout 60000",
-        "test-coba-mochawesome": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000 --reporter mochawesome",
-        "test-coba-simple-html": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
+        "test-coba-mochawesome": "mocha tests/sesi-9/Tugas-sesi-9.js --recursive --timeout 60000 --reporter mochawesome",
+        "test-coba-simple-html": "mocha tests/sesi-9Tugas-sesi-9.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
     },
     "dependencies": {
         "selenium-webdriver": "^4.17.0"

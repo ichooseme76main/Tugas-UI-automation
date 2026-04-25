@@ -1,0 +1,19 @@
+{
+    "name": "selenium-mocha-digital-skola",
+    "version": "1.0.0",
+    "description": "Selenium WebDriver tests using Mocha with Mochawesome reports",
+    "scripts": {
+        "test-coba": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000",
+        "test-coba-mochawesome": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000 --reporter mochawesome",
+        "test-coba-simple-html": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
+    },
+    "dependencies": {
+        "selenium-webdriver": "^4.17.0"
+    },
+    "devDependencies": {
+        "exceljs": "^4.4.0",
+        "mocha": "^10.4.0",
+        "mocha-simple-html-reporter": "^2.0.0",
+        "mochawesome": "^7.1.3"
+    }
+}
